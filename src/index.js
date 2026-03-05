@@ -16,3 +16,7 @@ app.listen(5000, () => {
 app.get("/", (req, res) => {
   res.send("Welcome to the Auth API");
 });
+
+app.get("/route1", (req, res) => {
+  res.send("this is route1");
+});
