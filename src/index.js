@@ -20,3 +20,7 @@ app.get("/", (req, res) => {
 app.get("/route1", (req, res) => {
   res.send("this is route1");
 });
+
+app.get("/route2", (req, res) => {
+  res.send("this is route2");
+});
